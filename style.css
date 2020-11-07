@@ -14,9 +14,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #000000;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    315deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(63, 155, 170, 0.7346288857339811) 54%,
+    rgba(0, 212, 255, 1) 100%
+  );
   border-radius: 10px;
-
+  width: 120px;
   padding: 15px 15px;
 }
 
